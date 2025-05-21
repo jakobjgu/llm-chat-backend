@@ -176,3 +176,4 @@ cython_debug/
 
 # Local things
 deployment-instructions.txt
+llm_chat_backend.zip
