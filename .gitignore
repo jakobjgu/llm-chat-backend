@@ -177,3 +177,7 @@ cython_debug/
 # Local things
 deployment-instructions.txt
 llm_chat_backend.zip
+tuning_explanations.txt
+rag_embeddings.duckdb
+RAG_source_docs/*
+deploy_lambda.sh
