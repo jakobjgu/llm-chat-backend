@@ -1,0 +1,39 @@
+# Ignore Python virtual environments
+.venv/
+.env/
+__pycache__/
+*.pyc
+
+# Ignore large or generated data files
+*.zip
+*.db
+*.duckdb
+*.pkl
+*.parquet
+*.csv
+*.jsonl
+
+# Ignore frontend or non-backend assets
+node_modules/
+*.ts
+*.tsx
+*.jsx
+*.js
+*.html
+
+# Ignore notebooks and cache
+*.ipynb
+.ipynb_checkpoints/
+
+# Ignore build metadata and OS clutter
+.DS_Store
+.Rhistory
+.RData
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore layer or build output
+lambda_build/
+lambda_layer/
